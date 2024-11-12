@@ -1,0 +1,67 @@
+/* LoginStyle.css */
+
+.loginP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .container-login {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .inner-login {
+    text-align: center;
+  }
+  
+  .head-login h1 {
+    color: #333333;
+  }
+  
+  .ip-login {
+    margin-top: 20px;
+  }
+  
+  .ip-1,
+  .ip-2 {
+    margin-bottom: 15px;
+  }
+  
+  span {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+  }
+  
+  .btn-login {
+    margin-top: 20px;
+  }
+  
+  .main-btn {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .main-btn:hover {
+    background-color: #45a049;
+  }
+  

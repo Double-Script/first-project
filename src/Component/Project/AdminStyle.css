@@ -1,0 +1,75 @@
+/* AdminStyle.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4; /* Adjust body background color as needed */
+  }
+  
+  .main {
+    display: flex;
+  }
+  
+  .left {
+    width: 200px;
+    background-color: #343a40; /* Adjust sidebar background color as needed */
+    color: #ffffff; /* Adjust text color as needed */
+    padding: 20px;
+  }
+  
+  .list-group {
+    width: 100%;
+  }
+  
+  .list-group-item {
+    display: flex;
+    align-items: center;
+    color: #ffffff; /* Adjust text color as needed */
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+  }
+  
+  .list-group-item:hover {
+    background-color: #495057; /* Adjust hover background color as needed */
+  }
+  
+  .fa-solid,
+  .fa-brands {
+    margin-right: 10px;
+  }
+  
+  .right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .R1,
+  .R2,
+  .R3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .R1 hr,
+  .R2 hr,
+  .R3 hr {
+    flex: 1;
+    border: 0;
+    border-top: 1px solid #ced4da; /* Adjust hr border color as needed */
+    margin: 0 10px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .main {
+      flex-direction: column;
+    }
+  
+    .left {
+      width: 100%;
+    }
+  }
+  
