@@ -141,7 +141,7 @@ export default function Home() {
         <div className="alert-overlay">
           <div className="alert-box">
             <p><strong>{selectedProduct?.title}</strong> added to your cart!</p>
-            <p>Would you like to view your cart or continue shopping?</p>
+            <p>Would you like to view cart continue shopping?</p>
             <button className="btn btn-success" onClick={handleCloseAlert}>Continue Shopping</button>
           </div>
         </div>
